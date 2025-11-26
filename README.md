@@ -198,4 +198,4 @@ This project uses the **React + TypeScript + Vite** template as a base.
 ## Author
 
 - [Frontend Mentor](https://www.frontendmentor.io/profile/GBcode66)
-- [GitHub](https://github.com/GBcode66/faq_accordion)
+- [GitHub](https://github.com/GBcode66/faq-accordion)
