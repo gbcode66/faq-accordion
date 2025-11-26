@@ -46,7 +46,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/GBcode66//faq_accordion)
-- Live Site URL: [GitHub.io](https://GBcode66.github.io/faq_accordion)
+- Live Site URL: [GitHub.io](https://GBcode66.github.io/faq-accordion)
 
 ---
 
