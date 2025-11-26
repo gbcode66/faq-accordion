@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Work Sans", sans-serif;
+  --color-purple-100: hsl(275, 100%, 97%);
+  --color-purple-600: hsl(292, 16%, 49%);
+  --color-purple-950: hsl(292, 42%, 14%);
+  --color-purple-accent: hsl(281, 83%, 54%);
+}
+
+@layer base {
+  @font-face {
+    font-family: "Work Sans";
+    src: url("/fonts/work-sans-v24-latin-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    src: url("/fonts/work-sans-v24-latin-600.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Work Sans";
+    src: url("/fonts/work-sans-v24-latin-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
